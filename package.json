@@ -1,17 +1,9 @@
-{ "name" : "xmlrpc"
-, "description" : "A pure JavaScript XML-RPC client and server."
+{ "name" : "mpi-xmlrpc"
+, "description" : "A pure JavaScript XML-RPC client and server adapted for MPI."
 , "keywords" : [ "xml-rpc", "xmlrpc", "xml", "rpc" ]
-, "version" : "1.3.2"
+, "version" : "1.3.3"
 , "preferGlobal" : false
-, "homepage" : "https://github.com/baalexander/node-xmlrpc"
-, "author" : "Brandon Alexander <baalexander@gmail.com> (https://github.com/baalexander)"
-, "repository" : {
-    "type" : "git"
-  , "url" : "git://github.com/baalexander/node-xmlrpc.git"
-  }
-, "bugs" : {
-    "url" : "https://github.com/baalexander/node-xmlrpc/issues"
-  }
+, "author" : "SRP Internal"
 , "directories" : {
     "lib" : "./lib"
   }
