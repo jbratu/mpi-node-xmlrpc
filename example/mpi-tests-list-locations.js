@@ -1,3 +1,5 @@
+var xmlrpc = require('../lib/xmlrpc.js')
+
 let clientOptions = "https://direct-ppro.modernparking.net/OI/oecgi3.exe/call_parkpro";
 let client = xmlrpc.createSecureClient(clientOptions)
 client.options.encoding = 'utf-8';
